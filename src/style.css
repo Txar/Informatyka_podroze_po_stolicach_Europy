@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body{
+    
+    background-image: url("https://jooinn.com/images/blue-sky-with-clouds-5.jpg");
+}
+
+.info td, .info tr, .info table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#info_table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container{
+    font-family: 'Ubuntu';
+    background-color: rgb(238, 161, 161);
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#info_title{
+    padding-top: 10px;
+}
+
+.info{
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 14px;
+    margin-top: 15px;
+    padding-bottom: 2%;
+}
+
+.cities{
+    background-color: #3366BB;
+}
+
+.city{
+    float: left;
+    margin-bottom: 14px;
+}
+
+.city_text, .city_text_right{
+    margin: 7px;
+    font-size: large;
+    width: 40%;
+    float: left;
+}
+
+.city_text_right{
+    float: right;
+    text-align: right;
+}
+
+.city_title, .city_title_right{
+    margin: 7px;
+    border-bottom-width: 2px;
+    border-color: black;
+    border-bottom-style: solid;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.city_title_right{
+    text-align: right;
+}
+
+.city_image, .city_image_left{
+    float: right;
+    width: 40%;
+}
+
+.city_image_left{
+    float: left;
+}
+
+#Moskwa{
+    background-color: #3366BB;
+    color: white;
+}
+
+#Rzym{
+    background-color: #44B1A1;
+    color: white;
+}
+
+#Paryz{
+    background-color: #CC9921;
+    color: white;
+}
+
+#Watykan{
+    background-color: #CC5577;
+    color: white;
+}
+
+img{
+    max-width: 400px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#right{
+    float: right;
+}
